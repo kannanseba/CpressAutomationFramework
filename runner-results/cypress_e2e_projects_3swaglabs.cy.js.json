@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 3,
+  "passes": 3,
+  "pending": 0,
+  "failures": 0,
+  "start": "2025-10-16T13:47:18.536Z",
+  "duration": 15413,
+  "file": "cypress\\e2e\\projects\\3swaglabs.cy.js"
+}

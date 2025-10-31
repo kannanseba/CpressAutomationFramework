@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 10,
+  "passes": 10,
+  "pending": 0,
+  "failures": 0,
+  "start": "2025-10-16T13:47:18.534Z",
+  "duration": 31852,
+  "file": "cypress\\e2e\\projects\\2Multifunctions.cy.js"
+}

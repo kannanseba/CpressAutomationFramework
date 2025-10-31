@@ -1,0 +1,30 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --headed",
+    "cy:parallel": "cypress-parallel -s cy:run -t 2 --spec cypress/e2e/projects/2Multifunctions.cy.js cypress/e2e/projects/3swaglabs.cy.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-dashboard":"npx cypress run --record --key aff4586b-3795-4294-bb58-4f45e8cfad5f"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.5.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "cypress-multi-reporters": "^2.0.5",
+    "cypress-real-events": "^1.15.0",
+    "mocha-junit-reporter": "^2.2.1"
+  },
+  "dependencies": {
+    "cypress-parallel": "^0.15.0"
+  },
+  "video": true,
+  "videosFolder": "cypress/videos",
+  "videoCompression": 32,
+  "videoUploadOnPasses": false
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Using fixtures to represent data",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "first_name":"Sebastin",
+  "last_name":"kannan",
+  "email":"sebastinkanna@gmail.com",
+  "message":"Mastering cypress Automation tool"
+  
+}
