@@ -1,6 +1,6 @@
 import AutostoreHO_PO from "../../../support/automation/AutostoreHO_PO.cy";
 import Autostore_Books_PO from "../../../support/automation/Autostore_Books_PO.cy"
-describe('Iterate over the multiple products to select multiple product', () => {
+describe('iterately over the multiple products to select multiple products', () => {
     const autoStore = new AutostoreHO_PO()
     const autoStore_Books_PO = new Autostore_Books_PO()
     before(function () {
