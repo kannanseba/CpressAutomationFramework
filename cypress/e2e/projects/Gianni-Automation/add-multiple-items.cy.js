@@ -28,7 +28,7 @@ describe('iterately over the multiple products to select multiple products', () 
     });
 
 
-    it('Select Multiple product to the add to cart page', () => {
+    it('Multible products added to the cart page', () => {
         autoStore_Books_PO.autoStore_Books_AddtoBasket()
         // globalThis.data.productName.forEach((element) => {
 
