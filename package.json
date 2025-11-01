@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:run:": "npx cypress open",
+    "cy:run:headed": "npx cypress open",
     "cy:run:headless":"npx cypress run",
     "cy:parallel": "cypress-parallel -s cy:run -t 2 --spec cypress/e2e/projects/2Multifunctions.cy.js cypress/e2e/projects/3swaglabs.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1",
