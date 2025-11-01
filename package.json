@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:run": "cypress run --headed",
+    "cy:run:": "npx cypress open",
+    "cy:run:headless":"npx cypress run",
     "cy:parallel": "cypress-parallel -s cy:run -t 2 --spec cypress/e2e/projects/2Multifunctions.cy.js cypress/e2e/projects/3swaglabs.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress-dashboard":"npx cypress run --record --key aff4586b-3795-4294-bb58-4f45e8cfad5f"

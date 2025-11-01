@@ -3,3 +3,7 @@ results
 screenshots
 videos
 package-lock.json
+autoiframe.cy.js
+dropdown.cy.js
+checkbox.cy.js
+3swaglabs.cy.js
